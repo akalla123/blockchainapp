@@ -1,0 +1,122 @@
+body{
+  background-color: #000066;
+}
+
+.button{
+  color: white;
+  float: right;
+  margin-right: 10px;
+  font-weight: bold;
+  margin-top: 30px;
+  border-radius: 15px;
+  width: 140px;
+}
+.buttonforgot{
+  color: white;
+  margin-right: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 15px;
+  width: 200px;
+
+}
+button:hover{
+  color: black !important;
+}
+button{
+  font-weight: bold !important;
+  border-radius: 15px !important;
+}
+.button1{
+  color: white;
+  margin-right: 10px;
+  font-weight: bold;
+  margin-top: 30px;
+  border-radius: 15px;
+  width: 140px;
+}
+.nos{
+  width: 60px;
+}
+.buttonforgot:hover{
+  color: black;
+}
+.button1:hover{
+  color: black;
+}
+.button:hover{
+  color: black;
+}
+.center1{
+  text-align: center;
+  color: white;
+  margin-top: 10%;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.center2{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.center3{
+  text-align: center;
+  color: white;
+  font-size: 10px;
+}
+.center4{
+  text-align: center;
+}
+.email_input{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+.footer{
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+.logos{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.signup_div{
+  background-color: white;
+  width: 30%;
+}
+input{
+  border-radius: 5px;
+}
+.firstname{
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 40%;
+}
+.abc{
+  margin-top: 0px;
+}
+.lastname{
+  float: right;
+  margin-right: 40px;
+  margin-top: 20px;
+  width: 40%;
+}
+.email{
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 90%;
+}
+.span{
+  margin-top: 250px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+}

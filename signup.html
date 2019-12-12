@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href= "{{ url_for('static',filename='css/style.css') }}"rel="stylesheet" type="text/css" />
+    <script src="{{ url_for('static',filename='script/script.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <center class="abc">
+      <span class="center1">SIgn Up HERE</span>
+    <div class="signup_div">
+      <form method="POST" action=""> 
+      <input class="firstname" type="text" id="fname" name = "firstName" placeholder="First Name"></input>
+      <input class="lastname" type="text" id="lname" name = "lastName" placeholder="Last Name"></input>
+      <input class="email" type="text" id="username" name = "userName" placeholder="Username"></input>
+      <input class="email" type="email" id="email" name = "email" placeholder="Email Address"></input>
+      <input class="email" type="password" id="password" name = "password" placeholder="Password"></input>
+      <input class="email" type="password" id="cnfrmpassword" name = "confirmPassword" placeholder="Confirm Password"></input>
+      <input class="email" type="text" id="telephone" placeholder="Phone Number (000-000-0000)" name = "phone"></input>
+      <input class="email" type="number" id="ssn" placeholder="Last 4 Digits of SSN" name = "ssn"></input>
+      <input class="email" type="text" id="role" placeholder="Enter Your Desired Role" name = "role"></input>
+
+
+      <button type="submit" class="email button btn btn-success">Sign Up</button>
+    </form>
+      <span class="email center3">Already have an account? Click <a href="login">here</a> to Login</span>
+      </div><br>
+    </center>
+    <footer class="footer">
+      <a href="https://github.com/akalla123" class="logos"><i class="fa fa-github" style="font-size:30px;color:white"></i></a>
+      <a href="https://linkedin.com/in/ayushkalla" class="logos"><i class="fa fa-linkedin" style="font-size:30px;color:white"></i></a>
+      <a href="https://www.quora.com/profile/Ayush-Kalla" class="logos"><i class="fa fa-quora" style="font-size:30px;color:white"></i></a>
+      <a href="https://medium.com/@akalla" class="logos"><i class="fa fa-medium" style="font-size:30px;color:white"></i></a><br><br>
+      &copy; Copyright 2019 
+    </footer>
+  </body>
+  </html>
